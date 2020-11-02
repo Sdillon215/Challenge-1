@@ -1,13 +1,16 @@
+/* general style */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/* end general style */
 
+/* body background */
 body {
     background-color: #d9dcd6;
 }
-
+/* header style */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,7 +43,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/* header style end */
 
+/* hero style */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -58,7 +63,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* end hero style */
 
+/* body style */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -67,6 +74,10 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+body {
+    background-color: #d9dcd6;
 }
 
 .content {
@@ -187,7 +198,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* end body style */
 
+/* footer style */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,3 +211,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* end footer style */
