@@ -10,6 +10,8 @@
 body {
     background-color: #d9dcd6;
 }
+/* body background end */
+
 /* header style */
 .header {
     padding: 20px;
@@ -45,7 +47,7 @@ body {
 }
 /* header style end */
 
-/* hero style */
+/* a and p selector style */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -54,7 +56,9 @@ a {
 p {
     font-size: 16px;
 }
+/* end a and p selector style */
 
+/* hero style */
 .hero {
     height: 800px;
     width: 100%;
@@ -97,55 +101,23 @@ body {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.lead-brand-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.lead-brand-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.lead-brand-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.body-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -154,47 +126,11 @@ body {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.body-content img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.body-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
